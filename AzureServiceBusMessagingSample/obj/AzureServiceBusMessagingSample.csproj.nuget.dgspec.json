@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dasensio/Downloads/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample.csproj": {}
+  },
+  "projects": {
+    "/Users/dasensio/Downloads/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dasensio/Downloads/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample.csproj",
+        "projectName": "AzureServiceBusMessagingSample",
+        "projectPath": "/Users/dasensio/Downloads/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample.csproj",
+        "packagesPath": "/Users/dasensio/.nuget/packages/",
+        "outputPath": "/Users/dasensio/Downloads/AzureServiceBusMessagingSample/AzureServiceBusMessagingSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dasensio/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ZetesMobility/S2T/_packaging/S2T/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
